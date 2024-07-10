@@ -31,13 +31,127 @@ header{
     height: 150px;
 }
 .first-para{
-    font-weight: extrabold;
+    font-weight: bolder;
     font-size: 40px;
     text-align: center;
     line-height: 50px;
+    color: rgb(13, 19, 33);
 }
 .first2-para{
     font-size: 16px;
     text-align: center;
     width: 758px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
 }
+.first-sec{
+    width: 900px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+   
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first-h1{
+    font-weight: bolder;
+    
+    font-size: 24px;
+    margin-top: 40px;
+    color: rgb(13, 19, 33);
+}
+.second-para{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 700px;
+    margin-bottom: 30px;
+    }
+.all{
+    margin-left: 40px;
+    margin-right: 40px;    
+}
+.coding{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 20px;
+    background:linear-gradient(90deg,white,#ffffff41);
+    border-radius: 9px;
+    }
+.description{
+    width: 50%;
+    padding: 30px;
+    }
+.img{
+    width: 200px;
+    height: 200px;
+    padding-top: 40px;
+    padding: 10px;
+}
+/*.des-img{
+    
+    width: 50%;
+    padding: 30px;
+}*/
+.first-h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+font-weight: 500;
+word-spacing: normal;
+
+}
+.third-para{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 12px;
+}
+.btn{
+    color: rgba(13, 19, 33, 0.664);
+    font-size: 14px;
+    border: 1px solid rgba(13, 19, 33, 0.63);
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.coding1{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    background:linear-gradient(90deg,#ffffff41,white);
+    border-radius: 9px;
+    }
+.coding2{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 20px;
+    background:linear-gradient(90deg,white,#ffffff41);
+    border-radius: 9px;
+    
+    
+    }
+    .second-sec{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .inspiration{
+        margin-top: 100px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
