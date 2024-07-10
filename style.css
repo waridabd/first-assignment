@@ -202,23 +202,81 @@ background: rgba(0, 76, 232, 0.05);
 padding: 20px;
 text-align: justify;
     }
-    .target3{
+.target3
+{
         border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 padding: 20px;
 text-align: justify;
 }
-    .btn-tar{
+.btn-tar{
         text-decoration: underline;
     }
-   .fourth-sec{
+.fourth-sec{
     width: 900px;
+
     margin: 0 auto;
-   }
-   .support{
+    margin-top: 100px;
+    
+.support{
+    width: 100%;
     background-image: url(assets/handshake.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px;
+    height: 400px;
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    }
+ 
+  
+   .support-head{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+   }
+   .support-para{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    text-align: center;
+    width: 500px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 30px;
+
+
+   }
+   .first{
+    width: 450px;
+    text-align: start;
+    height: 40px;
+    color: rgba(13, 19, 33, 0.664);
+    font-size: 14px;
+    border: 1px solid rgba(13, 19, 33, 0.63);
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    
+    border-radius: 10px;
+   }
+   .second{
+    width: 120px;
+   
+    text-align: center;
+    height: 50px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.63);
+    
+    margin-top: 20px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
