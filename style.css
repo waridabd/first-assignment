@@ -168,5 +168,57 @@ word-spacing: normal;
         align-self: stretch;
         padding-left: 80px;
         padding-right: 80px;
-        border-radius: 16px;
+        
     }
+    .third-sec{
+        width: 900px;
+        margin: 0 auto;
+        
+
+    }
+    .targets{
+        margin-top: 30px;
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+
+    }
+    .target{
+        width: 33.3%;
+    }
+    .tar-para{
+        height:50px ;
+    }
+    .target1{
+        border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        padding: 20px; 
+        text-align: justify;
+    }
+    .target2{
+        border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+padding: 20px;
+text-align: justify;
+    }
+    .target3{
+        border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+padding: 20px;
+text-align: justify;
+}
+    .btn-tar{
+        text-decoration: underline;
+    }
+   .fourth-sec{
+    width: 900px;
+    margin: 0 auto;
+   }
+   .support{
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+   }
